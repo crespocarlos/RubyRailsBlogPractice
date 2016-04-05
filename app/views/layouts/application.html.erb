@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MyBlog</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div id="usermenu">
+    <%= render 'layouts/usermenu' %>
+</div>
+
+<%= image_tag "rails.png" %>
+
+<% if content_for? :header %>
+    <%= yield :header %>
+ <%else%>
+    <p> Welcome to my blog </p>
+ <%end%>
+ 
+<%= yield %>
+
+</body>
+</html>
