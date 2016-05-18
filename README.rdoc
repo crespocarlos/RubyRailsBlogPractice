@@ -1,3 +1,5 @@
-== README
+# blog-rails
+A very simple blog built with ruby on rails, using sqlserver as database. Consists in blog posts and comments and was done to learn a few things of ruby and rails
 
-A very simple practice with ruby on rails, using sql server. 
+# Technologies
+Rails
