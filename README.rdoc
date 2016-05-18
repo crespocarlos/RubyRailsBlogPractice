@@ -1,5 +1,5 @@
-#blog-rails
+==blog-rails
 A very simple blog built with ruby on rails, using sqlserver as database. Consists in blog posts and comments and was done to learn a few things of ruby and rails
 
-#Technologies
+==Technologies
 Rails
